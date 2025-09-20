@@ -25,5 +25,6 @@ function updateSumi() {
     });
 }
 
-setInterval(updateSumi, 200000);
+setInterval(updateSumi, 20000);
 updateSumi();
+

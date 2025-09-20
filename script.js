@@ -11,6 +11,8 @@ function updateSumi() {
     .then(data => {
       const checks = data.checks; 
       sumiContainer.innerHTML = ""; // 既存の済画像を全消し
+      console.log("受け取ったデータ:", data);   // ここでJSONそのものを出力
+  console.log("checks:", data.checks); 
 
       checks.forEach((checked, index) => {
         if (checked) {
@@ -27,4 +29,5 @@ function updateSumi() {
 
 setInterval(updateSumi, 20000);
 updateSumi();
+
 

@@ -35,49 +35,44 @@ p{
 	background-color:rgba(0,0,0,0.70);
 }
 
-.tetsusen {
-	display: none; /* 初期状態で非表示 */
-	position: absolute; /* 親要素を基準に */
-    top: 4px; 
-    right: 6px; 
-    width: 147px; 
-    height: 324px; 
-    background-image: url('img/fin.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.hot{
-	display: none; /* 初期状態で非表示 */
-    position: absolute; /* 親要素を基準に */
-    top: 335px; 
-    right: 6px; 
-    width: 147px; 
-    height: 324px;  
-    background-image: url('img/fin.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.enderdragon{
-	display: none; /* 初期状態で非表示 */
-    position: absolute; /* 親要素を基準に */
-    top: 663px; 
-    right: 6px; 
-	width: 147px; 
-    height: 324px; 
-    background-image: url('img/fin.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.try{
-    position: absolute; /* 親要素を基準に */
-    top: 998px; 
-    right: 436px; 
+.sumi1{
+    position: absolute;
+    top: 55px; 
+    right: -85px; 
     width: 327px; 
     height: 74px; 
 }
+
+.sumi2{
+    position: absolute;
+    top: 225px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi3{
+    position: absolute; 
+    top: 400px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi4{
+    position: absolute; 
+    top: 585px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+.sumi5{
+    position: absolute; 
+    top: 755px; 
+    right: -85px; 
+    width: 327px; 
+    height: 74px; 
+}
+
+/* 160 */

@@ -41,43 +41,42 @@ body {
 
 .sumi-0{
     position: absolute;
-    top: 55px; 
-    right: -85px; 
+    top: -1000px; 
+    right: -205px; 
     width: 327px; 
     height: 74px; 
 }
 
 .sumi-1{
     position: absolute;
-    top: 225px; 
-    right: -85px; 
+    top: -830px; 
+    right: -205px; 
     width: 327px; 
     height: 74px; 
 }
 
 .sumi-2{
     position: absolute; 
-    top: 400px; 
-    right: -85px; 
+    top: -645px; 
+    right: -205px; 
     width: 327px; 
     height: 74px; 
 }
 
 .sumi-3{
     position: absolute; 
-    top: 585px; 
-    right: -85px; 
+    top: -455px; 
+    right: -205px; 
     width: 327px; 
     height: 74px; 
 }
 
 .sumi-4{
     position: absolute; 
-    top: 755px; 
-    right: -85px; 
+    top: -290px; 
+    right: -205px; 
     width: 327px; 
     height: 74px; 
 }
-
 
 /* 160 */

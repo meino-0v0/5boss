@@ -1,4 +1,4 @@
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxdmwsV_10zaFbPX1TWAf6e7BJAx0-R9H7IgAV0AkZB30uu3CDJYUypJNKgAGJjGnCHsQ/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyF6RfmgKukYwRkH3Isroku9O4audNrvBMX8kqzxXuCNMQaYUXb2xOP9KyXr1RWbaK7zw/exec";
 
 const sumiContainer = document.getElementById("sumi");
 
@@ -11,8 +11,6 @@ function updateSumi() {
     .then(data => {
       const checks = data.checks; 
       sumiContainer.innerHTML = ""; // 既存の済画像を全消し
-      console.log("受け取ったデータ:", data);   // ここでJSONそのものを出力
-  console.log("checks:", data.checks); 
 
       checks.forEach((checked, index) => {
         if (checked) {
@@ -27,7 +25,5 @@ function updateSumi() {
     });
 }
 
-setInterval(updateSumi, 20000);
+setInterval(updateSumi, 2000);
 updateSumi();
-
-

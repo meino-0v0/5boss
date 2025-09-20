@@ -14,7 +14,7 @@ body {
 }
 
 
-content {
+.content {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,15 +27,19 @@ content {
     position: relative; /* 親要素を基準に */
 }
 
-p{
-	text-align: center;
-	margin-top: 100px;
-	font-weight: 700;
-	font-size: 25px;
-	background-color:rgba(0,0,0,0.70);
+
+.sumi-icon {
+    position: absolute;
+    background-image: url('img/sumi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.sumi1{
+#sumi {
+  position: relative; /* 子のabsolute基準にする */
+}
+
+.sumi-0{
     position: absolute;
     top: 55px; 
     right: -85px; 
@@ -43,7 +47,7 @@ p{
     height: 74px; 
 }
 
-.sumi2{
+.sumi-1{
     position: absolute;
     top: 225px; 
     right: -85px; 
@@ -51,7 +55,7 @@ p{
     height: 74px; 
 }
 
-.sumi3{
+.sumi-2{
     position: absolute; 
     top: 400px; 
     right: -85px; 
@@ -59,7 +63,7 @@ p{
     height: 74px; 
 }
 
-.sumi4{
+.sumi-3{
     position: absolute; 
     top: 585px; 
     right: -85px; 
@@ -67,7 +71,7 @@ p{
     height: 74px; 
 }
 
-.sumi5{
+.sumi-4{
     position: absolute; 
     top: 755px; 
     right: -85px; 

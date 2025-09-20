@@ -30,7 +30,7 @@ body {
 
 .sumi-icon {
     position: absolute;
-    background-image: url('img/sumi.png');
+    background-image: url('sumi.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -78,5 +78,6 @@ body {
     width: 327px; 
     height: 74px; 
 }
+
 
 /* 160 */
